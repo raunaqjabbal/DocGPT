@@ -1,0 +1,13 @@
+langchain 
+tiktoken 
+duckduckgo-search 
+openai
+huggingface_hub 
+tiktoken
+chromadb
+PyPDF2 
+pypdf 
+sentence_transformers
+FlagEmbedding
+chromadb
+textbase-client
