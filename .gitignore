@@ -1,0 +1,6 @@
+.dist/
+.__pycache__/
+textbase/
+.textbase/
+dist/
+gpt/doc_embedding.pickle
