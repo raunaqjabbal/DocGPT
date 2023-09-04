@@ -1,7 +1,7 @@
 # DocGPT
 
 
-## How to get  
+## How to install for Windows
 ```
 pip install poetry
 ```
