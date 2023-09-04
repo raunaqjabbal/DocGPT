@@ -4,3 +4,6 @@ textbase/
 .textbase/
 dist/
 gpt/doc_embedding.pickle
+docgpt.zip
+__pycache__/
+gpt/__pycache__/

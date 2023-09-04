@@ -13,6 +13,7 @@ from langchain.chat_models import ChatOpenAI
 from langchain import OpenAI, LLMChain, PromptTemplate, LLMMathChain
 from langchain.tools import DuckDuckGoSearchRun
 from langchain.chains.summarize import load_summarize_chain
+from langchain.embeddings import OpenAIEmbeddings
 import regex as re
 
 import os
@@ -54,8 +55,11 @@ Overall, Assistant is a powerful system that can help with a wide range of tasks
 
 ### Loading the Embeddings for database search 
 
-with open('gpt/doc_embedding.pickle', 'rb') as pkl:
-    embedding = pickle.load(pkl)
+# with open('gpt/doc_embedding.pickle', 'rb') as pkl:
+#     embedding = pickle.load(pkl)
+    
+embedding = OpenAIEmbeddings()
+
     
 persist_directory = 'gpt/db'
 
