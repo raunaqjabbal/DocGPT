@@ -3,7 +3,7 @@
 
 ## How to install for Windows
 
-In a folder that contains  contents of this Repository: 
+In a folder that contains contents of this Repository: 
 
 ```
 pip install poetry
@@ -23,7 +23,7 @@ cd ..
 pip install -r requirements.txt
 ```
 
-Run this in a python scrip:
+Run this in a python script:
 ```
 from langchain.embeddings import HuggingFaceBgeEmbeddings
 model_name= "thenlper/gte-small"
