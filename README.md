@@ -16,7 +16,8 @@ poetry shell
 poetry install
 ```
 
-Enter the virtual environment
+Enter the virtual environment:
+Locatoion: ```textbase/.venv/Scripts```
 
 ``` 
 cd ..
@@ -39,5 +40,10 @@ import pickle
 
 with open('gpt/doc_embedding.pickle', 'wb') as pkl:
     pickle.dump(embedding, pkl)
+
+```
+
+```
+textbase-client test
 
 ```
