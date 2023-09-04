@@ -2,6 +2,9 @@
 
 
 ## How to install for Windows
+
+In a folder that contains  contents of this Repository: 
+
 ```
 pip install poetry
 ```
