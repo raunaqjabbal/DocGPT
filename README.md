@@ -1,5 +1,7 @@
 # DocGPT
 
+Reminder: Do add OpenAI key in ```main.py``` and ```gpt/main2.py```.
+
 I use OpenAI Embeddings now, in the video I'm using Embeddings from huggingFace.
 https://youtu.be/q6JtxyAmBC4
 
