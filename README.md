@@ -45,5 +45,5 @@ with open('gpt/doc_embedding.pickle', 'wb') as pkl:
 
 ```
 textbase-client test
-
+Path to the main.py file: main.py
 ```
